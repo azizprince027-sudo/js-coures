@@ -93,6 +93,7 @@
 // while (i < 5) {
 
 // console.log("ligne :" + i);
+// 
 // i++;
 // } sans le i ++ on a une boucle infinie
 
@@ -118,11 +119,15 @@
 //     }
 // }
 
-// timer(10);
+// timer(100);
 
 // les tableau
 
 // let tableau [elements];
+//pour acceder au elements dun tablau
+//  on utilises les  chiffres  0,1,2 ... appelez index
+//pour les tableau simples  console .log(le nom du tableau[le nombre])
+
 
 // tableau 2 dimention
 
@@ -131,11 +136,35 @@
 //         ["elements1"],
 //         ["elements"]
 //     ];
+// pour  acceder aux elements des 2D on fait 
+// console.log(nom du tableau si ya 2 elements on fait [la ligne(elements)] [le nombres]0 1 2 ... exemple  elemt1 [0][2] )
 
-// let mon tableau asso = {    tableau asso 
+
+// let mon tableau asso = {    tableau associatifes
 // "prenom" : "mark",
 // "nom"    : "zuk",
-// "poste"  : "dg"
+// "poste"  : "PDG"
 
 
-// };
+// }; 
+
+// pour les tableau asso c est pareille mais on utilises ["" a la places des nombres ]
+// on ecrit a l interieure des apostrophe l enom qui contioen la valeur  qu on veut afficher 
+// exemple ["poste"]
+
+
+// let menu = ["Accueil", "Contact", "Profil"];
+
+// // 1. On remplace "Contact" (index 1) par "Boutique"
+// // On part de l'index 1, on supprime 1 élément, on insère "Boutique"
+// menu.splice(1, 1, "Boutique"); 
+
+// // 2. On ajoute "Contact" à la fin du tableau
+// menu.push("Contact");
+
+// console.log(menu); // Affiche : ["Accueil", "Boutique", "Profil", "Contact"]
+
+// boucles for in 
+
+let panier = ["fraise", "pmme","poire"]
+
