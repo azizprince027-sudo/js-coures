@@ -108,15 +108,13 @@
 // fonction recursive .  
 
 // function timer(secondes) { //secondes vaut 10
-//     if (secondes > 0) {
-//         console.log(secondes);
-//         timer(secondes -1) // 10 -1 =9
-
-//         // afficher timrs  9 -1
-//     }
-//     else {
-//         console.log(secondes)
-//     }
+//    if (secondes > 0) {
+//     console.log(secondes)
+//     timer(secondes -1)
+    
+//    } else {
+//     console.log(secondes )
+//    }
 // }
 
 // timer(100);
@@ -166,5 +164,84 @@
 
 // boucles for in 
 
-let panier = ["fraise", "pmme","poire"]
+//for(const fruit in panier){
+//}
 
+// function direBonjour() {
+//     return "c est comment"
+    
+// }
+
+// let salut = direBonjour();
+// console.log(salut)
+// console.log(direBonjour())
+
+
+// let compteur = 0;
+// function incrementer() {
+//     compteur = compteur + 1;
+//     return compteur;
+// }
+
+// let score = incrementer(); // Ici, compteur devient 1. 'score' vaut 1.
+
+// console.log(score);        // Affiche 1. (On regarde juste la boîte)
+// console.log(score);        // Affiche 1. (On regarde encore la boîte)
+
+// console.log(incrementer()); // Affiche 2 ! (On a relancé la fonction, donc le compteur a bougé)
+// console.log(incrementer()); // Affiche 3 ! (On l'a encore relancée)
+
+// boucle for  of
+
+// let panier = ["Atiéké", "Alloco", "Poisson"];
+
+// for (let nourriture of panier) {
+//   console.log("Je mange du " + nourriture);
+// }
+
+// Ce qui se passe dans la machine :
+
+// Tour 1 : nourriture devient "Atiéké". Affiche : Je mange du Atiéké.
+
+// Tour 2 : nourriture devient "Alloco". Affiche : Je mange du Alloco.
+
+// Tour 3 : nourriture devient "Poisson". Affiche : Je mange du Poisson.
+
+// Fin : Plus rien dans la liste ? La boucle s'arrête toute seule.
+
+// les objet 
+
+// let chien = {
+// race : "baoulé",
+// poil : "court",
+// aboyer: function (){
+//     console.log("ouaf ouaf")
+// }
+
+// }
+// chien.aboyer();
+
+// pour les fonction annonyme  c est ca on fait
+
+
+// const chien = {
+//     race:"baoulé",
+//     poil: "court",
+//     aboyer: function (){
+//         console.log("waf waf");
+//     }
+// }
+// nb quand on  ajoute une fonction annonyme on fait  pas console .log
+// mais l objet. la fonction
+
+// chien.aboyer();
+
+// pour faire avec fonction fleché
+
+const chien = {
+    race:"baoulé",
+    poil: "court",
+    aboyer: () => console.log("waf waf")
+}
+
+chien.aboyer();
